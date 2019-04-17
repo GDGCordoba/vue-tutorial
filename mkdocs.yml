@@ -1,0 +1,5 @@
+site_name: Tutorial Vue.js
+theme: cinder
+nav:
+  - Home: index.md
+  - Instalación: install.md
