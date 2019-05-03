@@ -3,3 +3,6 @@ theme: cinder
 nav:
   - Home: index.md
   - Instalación: install.md
+  - Arquitectura: architecture.md
+  - Estructura del proyecto: structure.md
+  - Layout: layout.md

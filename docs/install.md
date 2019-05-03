@@ -22,7 +22,7 @@ Por otra parte, _eslint_ es una librería que nos servirá para escribir código
 
 Una vez instalado, podremos crear un proyecto con una sola línea
 
-`vue create tutorial-vue`
+`vue create webpack tutorial-vue`
 
 ## Creación de un proyecto
 
