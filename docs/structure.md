@@ -6,7 +6,7 @@ El comando que ejecutamos antes nos ha creado un directorio con toda la estructu
 - *components* — Todos los componentes que se reutilizarán en las vistas de nuestra web, así como las vistas propiamente dichas.
 - *router* — Contendrá todas las rutas que forman nuestro blog, es decir, todos los puntos de acceso a nuestra web a través de las URLs.
 
-Aunque lo entenderás a medida que avancemos en el tutorial, cabe mencionar que todo en VueJS es un componente, incluidas las vistas. La diferencia entre una vista y un componente, es que el componente será usarlo varias veces en las vistas. Por su parte, las vistas serán las que se añadirán dentro de las rutas para ser accesibles a los usuarios. Ahora te parecerá un lío pero lo entenderás cuando nos pongamos a crear código.
+Aunque lo entenderás a medida que avancemos en el tutorial, cabe mencionar que todo en VueJS es un componente, incluidas las vistas. La diferencia entre una vista y un componente, es que el componente será usardo varias veces en las vistas. Por su parte, las vistas serán las que se añadirán dentro de las rutas para ser accesibles a los usuarios. Ahora te parecerá un lío pero lo entenderás cuando nos pongamos a crear código.
 
 Además de las carpetas creadas por defecto dentro de `src`, lo primero que vamos a hacer es crear algunas carpetas más dentro de `src` para mejorar la estructura de nuestra aplicación:
 
