@@ -1,6 +1,6 @@
 # Arquitectura de la aplicación
 
-A muy alto nivel, las aplicaciones webs siempre van a tener dos partes diferenciadas, los llamados Backend y Frontend. En este tutorial te vamos a ahorrar la parte Backend para que así nos podamos centrar en aprender VueJS. De todas formas, te podemos proporcionar el código para acceder al mismo si eres curios@ (y esperamos que lo seas :P).
+A muy alto nivel, las aplicaciones webs siempre van a tener dos partes diferenciadas, los llamados Backend y Frontend. En este tutorial te vamos a ahorrar la parte Backend para que así nos podamos centrar en aprender VueJS, que forma parte del Frontend. De todas formas, te podemos proporcionar el código para acceder al Backend si eres curios@ (y esperamos que lo seas :P).
 
 Como te dijimos arriba, VueJS es un framework orientado a componentes. Para tratar de encontrar nuestros componentes, vamos a tratar de analizar los comportamientos que vamos a tener interactuando con nuestra app, diferenciando entre usuarios logueados y no logueados.
 
@@ -28,7 +28,7 @@ Aunque el login/registro también podrían considerarse como un componente por s
 Todos los desarrollador@s tratamos de seguir unas buenas prácticas de desarrollo, para lo que nos apoyamos en una serie de patrones de diseño. Aquí no queremos ser menos, así que vamos a enseñarte uno de los más importantes, el MVC. Este patrón permite separar los datos de su representación y de su comunicación con otros componentes, haciendo una división lógica en tres partes:
 
 - Modelo - Es la representación de la información con el cual opera el componente.
-- Vista - La Vista: Presenta el 'modelo' (información y lógica de negocio) en un formato adecuado para interactuar.
-- Controlador - Responde a eventos e invoca peticiones al 'modelo' cuando se hace alguna solicitud sobre la información.
+- Vista - Presenta el modelo (información y lógica de negocio) en un formato adecuado para interactuar.
+- Controlador - Responde a eventos e invoca peticiones al modelo cuando se hace alguna solicitud sobre la información.
 
 De momento lo dejamos aquí pero cuando crees tu primer componente, conectaremos estos conceptos con el mismo para que lo veas más claro.
